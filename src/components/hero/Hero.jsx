@@ -12,20 +12,20 @@ const Hero = () => {
         </div>
         <div style={{marginTop: '2rem'}} className='flex items-center justify-center'>
           <div className='w-[220px]'>
-            <select style={{padding: '.7rem'}} name="" id="" className='bg-gray-100 outline-[2px] outline-gray-500 w-full'>
+            <select style={{padding: '.7rem'}} name="" id="" className='bg-gray-100 outline-[1px] outline-gray-500 w-full'>
               <option value="">All regions</option>
               <option value=""></option>
               <option value=""></option>
             </select>
           </div>
           <div className='w-[220px]'>
-            <select style={{padding: '.7rem'}} name="" id="" className='bg-gray-100 outline-[2px] outline-gray-500 w-full'>
+            <select style={{padding: '.7rem'}} name="" id="" className='bg-gray-100 outline-[1px] outline-gray-500 w-full'>
               <option value="">All regions</option>
               <option value=""></option>
               <option value=""></option>
             </select>
           </div>
-          <div className='w-[220px] flex items-center justify-center'><button style={{padding: '.7rem'}}  className='bg-[#f73e56] text-white w-full text-[.9rem] font-[600]'>TO RESEARCH</button></div>
+          <div className='w-[220px] flex items-center justify-center outline-[1px] outline-gray-500'><button style={{padding: '.7rem'}}  className='bg-[#f73e56] text-white w-full text-[.9rem] font-[600] outline-[1px] outline-gray-500'>TO RESEARCH</button></div>
         </div>
       </section>
     </div>
