@@ -1,3 +1,14 @@
 button{
     cursor: pointer;
 }
+
+.event div{
+    @apply w-[100px]
+}
+.event div:nth-child(6){
+    @apply w-[50px]
+}
+.links li:first-child{
+    padding: .8rem;
+    @apply border-[1px] border-[white]
+}
