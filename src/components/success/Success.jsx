@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BiSolidQuoteLeft, BiSolidQuoteRight } from 'react-icons/bi';
+import Eating from '../../assets/eating.jpg'
 import './success.css';
 
 const Success = () => {
@@ -29,7 +30,7 @@ const Success = () => {
                 </p>
                 <BiSolidQuoteRight className="text-[20px] ml-2" />
               </div>
-              <p className="mt-4">Michael Godfriaux</p>
+              <p style={{marginTop: '1rem'}}>Michael Godfriaux</p>
               <p>CEO & Principal Agent at Be My Models</p>
             </div>
             {/* Testimonial 2 */}
@@ -41,7 +42,7 @@ const Success = () => {
                 </p>
                 <BiSolidQuoteRight className="text-[20px] ml-2" />
               </div>
-              <p className="mt-4">Martin Gillet</p>
+              <p style={{marginTop: '1rem'}}>Martin Gillet</p>
               <p>VP Global Communications & Marketing at Tesla Owners Club BE</p>
             </div>
             {/* Testimonial 3 */}
@@ -53,7 +54,7 @@ const Success = () => {
                 </p>
                 <BiSolidQuoteRight className="text-[20px] ml-2" />
               </div>
-              <p className="mt-4">Adrian Carniol</p>
+              <p style={{marginTop: '1rem'}}>Adrian Carniol</p>
               <p>Commercial Director Luxury Division at L'Oréal</p>
             </div>
           </div>
@@ -64,7 +65,7 @@ const Success = () => {
             <div
               className="slanted-image h-full w-full"
               style={{
-                backgroundImage: "url('https://cloud.githubusercontent.com/assets/6893715/21904006/e307032c-d8b6-11e6-9e4a-52dccfedf8a5.jpg')",
+                backgroundImage: `url(${Eating})`,
               }}
             ></div>
           </div>
