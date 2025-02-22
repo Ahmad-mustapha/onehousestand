@@ -1,6 +1,7 @@
 import Loreal from '../../assets/loreal.webp'
 import Deloitte from '../../assets/deloitte.webp'
-import EngelAndVolkers from '../../assets/engel&Volkers.webp'
+// import EngelAndVolkers from '../../assets/engelandVolkers.webp'
+import Engel from '../../assets/engelandVolkers.webp'
 import UberEats from '../../assets/uberEats.webp'
 import Beobank from '../../assets/beobank.webp'
 import Delhaize from '../../assets/delhaize.webp'
@@ -11,7 +12,7 @@ import Nutella from '../../assets/nutella.webp'
 const eachEventData = [
     {id:1, image: Loreal },
     {id:2, image: Deloitte },
-    {id:3, image: EngelAndVolkers },
+    {id:3, image: Engel },
     {id:4, image: UberEats },
     {id:5, image: Beobank },
     {id:6, image: Delhaize },
