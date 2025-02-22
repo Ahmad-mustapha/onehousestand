@@ -12,7 +12,7 @@ const navLink = [
 ]
 
 export const Sidebar = ({isOpen, setOpenNav}) =>(
-  <ul className={`flex flex-col items-center justify-center gap-10 text-[#094C41] text-[16px] h-screen w-[70%] sm:w-[50%] fixed right-0 top-0 z-50 transition-transform duration-500 bg-[#b4b3b3] ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+  <ul style={{paddingLeft: '1rem'}} className={`flex flex-col justify-center gap-10 text-[#094C41] text-[16px] h-screen w-[70%] sm:w-[50%] fixed right-0 top-0 z-50 transition-transform duration-500 bg-[#b4b3b3] ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
     {
       navLink.map((item, index) =>(
         <li className='relative' key={index}><Link onClick={()=>setOpenNav(false)} to={item.link} className={`eachlink ${location.pathname === item.link ? 'active' : ''}`}>{item.text}</Link></li>

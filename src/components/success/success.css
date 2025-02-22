@@ -1,0 +1,7 @@
+.quote-text::before {
+    content: '\\201C'; /* Unicode for left double quotation mark */
+  }
+  
+  .quote-text::after {
+    content: '\\201D'; /* Unicode for right double quotation mark */
+  }
