@@ -38,9 +38,7 @@ const Events = () => {
   return (
     <div style={{marginTop: '1rem'}} className=''>
         <p className='font-[500] text-[1.3rem] text-center'>They organize their events on OneHouseStand</p>
-        {/* <div className='flex items-center justify-center'> */}
-            <Eachevent />
-        {/* </div> */}
+        <Eachevent />
     </div>
   )
 }

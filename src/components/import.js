@@ -6,4 +6,7 @@ export { default as Newrooms } from '../components/newrooms/Newrooms'
 export { default as Works } from '../components/howItWork/Works'
 export { default as Success } from '../components/success/Success'
 export { default as Popularrooms } from '../components/popularrooms/Popularrooms'
+export { default as Businesscard } from '../components/businesscard/Businesscard'
+export { default as Trustus } from '../components/trustus/Trustus'
+
 
