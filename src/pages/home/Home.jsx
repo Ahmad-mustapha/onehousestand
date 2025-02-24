@@ -1,6 +1,7 @@
 import React from 'react'
 // import { Navbar, Hero } from '../../components/import'
-import { Hero, Events, Newrooms, Works, Success, Popularrooms, Businesscard, Trustus } from '../../components/import'
+import { Hero, Events, Newrooms, Works, Success, Popularrooms, Businesscard, Trustus, Rent } from '../../components/import'
+import { Talkaboutus } from '../../components/events/Events'
 
 const Home = () => {
   return (
@@ -13,6 +14,8 @@ const Home = () => {
       <Popularrooms />
       <Businesscard />
       <Trustus />
+      <Rent />
+      <Talkaboutus />
     </div>
   )
 }

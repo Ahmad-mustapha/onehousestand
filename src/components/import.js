@@ -8,5 +8,5 @@ export { default as Success } from '../components/success/Success'
 export { default as Popularrooms } from '../components/popularrooms/Popularrooms'
 export { default as Businesscard } from '../components/businesscard/Businesscard'
 export { default as Trustus } from '../components/trustus/Trustus'
-
+export { default as Rent } from '../components/rent/Rent'
 

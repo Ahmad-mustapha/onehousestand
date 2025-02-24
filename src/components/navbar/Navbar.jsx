@@ -32,8 +32,8 @@ const Navbar = () => {
       <nav style={{padding: '2rem'}} className='flex items-center justify-between fixed w-full h-[4.7rem] top-0 left-0 z-30 bg-transparent backdrop-blur-[10px]'>
         <Link>
           <div className='flex items-center gap-2'>
-            <div className='w-[3rem]'><img src={Logo} alt="" /></div>
-            <p className='text-[1.7rem] font-[700] text-white'>OneHouseStand</p>
+            <div className='w-[2rem] md:w-[3rem]'><img src={Logo} alt="" /></div>
+            <p className='text-[1.3rem] md:text-[1.7rem] font-[700] text-white drop-shadow-md hover:text-[#f73e56]'>OneHouseStand</p>
           </div>
         </Link>
         <ul className='hidden md:flex flex-row items-center gap-8 text-white text-[1rem] font-[600] links'>
