@@ -14,14 +14,14 @@ import Radiocontact from '../../assets/radioContact.png'
 import Lecho from '../../assets/lEcho.png'
 import Trends from '../../assets/trends.png'
 import Dhnew from '../../assets/dhNew.png'
-import MarrieClaire from '../../assets/marieclaire.png'
+import Marrieclaire from '../../assets/marieclaire.png'
 import Lalibre from '../../assets/laLibre.png'
 import Bx from '../../assets/bx.png'
 import Flair from '../../assets/flair.png'
 import Geeko from '../../assets/geeko.png'
 import Rtbf from '../../assets/rtbf.png'
 import Lacapitale from '../../assets/laCapitale.png'
-import VisitBrussels from '../../assets/visitBrussels.png'
+import Visitbrussels from '../../assets/visitBrussels.png'
 import Nieuwsblad from '../../assets/nieuwsblad.png'
 import Sosoir from '../../assets/soSoir.png'
 import Brussels from '../../assets/brussels.png'
@@ -71,14 +71,14 @@ const Talkaboutusdata = [
     {id:3, image: Lecho },
     {id:4, image: Trends },
     {id:5, image: Dhnew },
-    {id:6, image: MarrieClaire },
+    {id:6, image: Marrieclaire },
     {id:7, image: Lalibre },
     {id:8, image: Bx },
     {id:8, image: Flair },
     {id:9, image: Geeko },
     {id:10, image: Rtbf },
     {id:11, image: Lacapitale },
-    {id:12, image: VisitBrussels },
+    {id:12, image: Visitbrussels },
     {id:13, image: Nieuwsblad },
     {id:14, image: Sosoir },
     {id:15, image: Brussels },
