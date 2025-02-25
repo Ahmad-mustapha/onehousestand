@@ -127,14 +127,6 @@ const Footer = () => {
       </div>
 
       <div className="w-full md:w-2/6 flex flex-col gap-6 items-start md:items-center border-l-0 md:border-l-1">
-        {/* <h4 style={{marginBottom: '.8rem'}} className="text-white text-[1.2rem] font-[700]">SECOND COLUMN</h4>
-        <ul style={{ listStyle: 'none', padding: 0 }}>
-          {secondColumn.map((item) => (
-            <li key={item.id}>
-              <a href={item.link}>{item.text}</a>
-            </li>
-          ))}
-        </ul> */}
         <select style={{padding: '5px 10px'}} name="" id="" className="border-2 outline-hidden">
           <option value="">French</option>
           <option value="">Dutch</option>

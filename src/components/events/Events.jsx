@@ -14,8 +14,6 @@ import Radiocontact from '../../assets/radioContact.png'
 import Lecho from '../../assets/lEcho.png'
 import Trends from '../../assets/trends.png'
 import Dhnew from '../../assets/dhNew.png'
-// import Marrieclaire from '../../assets/marieclaire.png'
-// import Marrie from '../../assets/marieclaire.png'
 import Lalibre from '../../assets/laLibre.png'
 import Bx from '../../assets/bx.png'
 import Flair from '../../assets/flair.png'
@@ -72,7 +70,6 @@ const Talkaboutusdata = [
     {id:3, image: Lecho },
     {id:4, image: Trends },
     {id:5, image: Dhnew },
-    // {id:6, image: Marrie },
     {id:7, image: Lalibre },
     {id:8, image: Bx },
     {id:8, image: Flair },
