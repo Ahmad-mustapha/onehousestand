@@ -15,18 +15,17 @@ export const EachPopularRoom = () => {
             {
             EachPopularRoomdata.map((item, index) =>(
                 <div key={index} className='eachproject relative'>
-                <div className='w-full'><img className='w-full' src={First} alt="" /></div>
-                <div style={{padding: '.5rem'}}>
-                    <div style={{marginTop: '.4rem'}}>
-                    <p className='text-[18px] font-[500]'>In Dominique's villa</p>
-                    <p className='text-[12px]'>Brussels | Uccle</p>
+                    <div className='w-full'><img className='w-full' src={First} alt="" /></div>
+                    <div style={{padding: '.5rem'}}>
+                        <div style={{marginTop: '.4rem'}}>
+                            <p className='text-[18px] font-[500]'>In Dominique's villa</p>
+                            <p className='text-[12px]'>Brussels | Uccle</p>
+                            </div>
+                            <div style={{marginTop: '1rem'}} className='flex items-center gap-8'>
+                            <p><sub>from</sub><span className='text-[18px] font-[500]'>#135</span><sub>/h</sub><span className='text-[18px] font-[500]'>#135</span><sub>/day</sub></p>
+                            <p className='flex items-center text-red-400 text-[14px]'><BsPeople /> <span>70</span></p>
+                        </div>
                     </div>
-                    <div style={{marginTop: '1rem'}} className='flex items-center gap-8'>
-                    <p><sub>from</sub><span className='text-[18px] font-[500]'>#135</span><sub>/h</sub><span className='text-[18px] font-[500]'>#135</span><sub>/day</sub></p>
-                    <p className='flex items-center text-red-400 text-[14px]'><BsPeople /> <span>70</span></p>
-                    </div>
-                </div>
-                {/* <p style={{padding: '.3rem .5rem'}} className='absolute top-4 right-4 font-[600] text-[17px] text-white bg-red-400 rounded-sm'>New</p> */}
                 </div>
             ))
             }
