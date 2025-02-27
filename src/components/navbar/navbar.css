@@ -34,3 +34,6 @@
 .menu{
     z-index: 10000;
 }
+.hover:first-child{
+    /* @apply bg-[#f73e56] */
+}

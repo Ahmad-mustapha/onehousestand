@@ -63,7 +63,6 @@ const Events = () => {
 
 export default Events
 
-
 const Talkaboutusdata = [
     {id:1, image: Lesoir },
     {id:2, image: Radiocontact },

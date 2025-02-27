@@ -12,7 +12,7 @@ const navLink = [
 ]
 
 export const Sidebar = ({isOpen, setOpenNav}) =>(
-  <ul style={{paddingLeft: '1rem'}} className={`flex flex-col justify-center gap-10 text-[#094C41] text-[16px] h-screen w-[70%] sm:w-[50%] fixed right-0 top-0 z-50 transition-transform duration-500 bg-[#b4b3b3] ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+  <ul style={{paddingLeft: '1rem'}} className={`flex flex-col justify-center gap-10 text-[#094C41] text-[16px] h-screen w-[70%] sm:w-[50%] fixed right-0 top-0 z-50 transition-transform duration-500 bg-[#d1d1d1] ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
     {
       navLink.map((item, index) =>(
         <li className='relative' key={index}><Link onClick={()=>setOpenNav(false)} to={item.link} className={`eachlink ${location.pathname === item.link ? 'active' : ''}`}>{item.text}</Link></li>
@@ -39,7 +39,7 @@ const Navbar = () => {
         <ul className='hidden md:flex flex-row items-center gap-8 text-white text-[1rem] font-[600] links'>
           {
             navLink.map((item, index) =>(
-              <li><Link>{item.text}</Link></li>
+              <li className='hover:text-[#f73e56]'><Link className=''>{item.text}</Link></li>
             ))
           }
           <span><MdArrowDropDown /></span>

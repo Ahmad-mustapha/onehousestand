@@ -12,3 +12,6 @@ button{
     padding: .8rem;
     @apply border-[1px] border-[white]
 }
+.links  li:first-child:hover{
+    @apply bg-[#f73e56] text-[white]
+}
